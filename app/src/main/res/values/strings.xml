@@ -1,3 +1,10 @@
 <resources>
+    <!-- Nombre que sale en la barra de la app -->
     <string name="app_name">Converter</string>
+    <!-- Símbolos de moneda que acompañan a cada caja de texto -->
+    <string name="euro_symbol">€</string>
+    <string name="dollar_symbol">$</string>
+    <!-- Textos de los botones -->
+    <string name="button_to_dollars">To Dollars</string>
+    <string name="button_to_euros">To Euros</string>
 </resources>
