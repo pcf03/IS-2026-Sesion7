@@ -38,6 +38,10 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
+    // Retrofit: cliente HTTP que convierte una interfaz Kotlin en llamadas REST
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Conversor JSON <-> objetos Kotlin (usa Gson por debajo)
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
